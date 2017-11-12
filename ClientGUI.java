@@ -1599,7 +1599,7 @@ public class ClientGUI extends javax.swing.JFrame {
         Calendar date = Calendar.getInstance();
         date.set(Calendar.YEAR, year);
         date.set(Calendar.MONTH, month);
-        date.set(Calendar.DAY_OF_MONTH, day);
+        date.set(Calendar.DAY_OF_MONTH, day+1);
 
         if (date.after(current)) {
             JOptionPane.showMessageDialog(null, "Please Enter a valid Date");
